@@ -1,6 +1,7 @@
 package tn.esprit.models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.List;
 
 public class Utilisateur {
@@ -92,6 +93,27 @@ public class Utilisateur {
     }
 
     public void setId_user(int id_user) {
+=======
+public class Utilisateur {
+    private int id_user;
+    private String nom;
+    private String prenom;
+    private int age;
+
+    public Utilisateur() {}
+
+    public Utilisateur(String nom, String prenom, int age) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.age = age;
+    }
+
+    public int getid_user() {
+        return id_user;
+    }
+
+    public void setid_user(int id_user) {
+>>>>>>> origin/may
         this.id_user = id_user;
     }
 
@@ -107,10 +129,15 @@ public class Utilisateur {
         return prenom;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/may
     public void setPrenom(String prenom) {
         this.prenom = prenom;
     }
 
+<<<<<<< HEAD
     public String getEmail() {
         return email;
     }
@@ -166,3 +193,25 @@ public class Utilisateur {
 >>>>>>> origin/adem
     }
 }
+=======
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "id_user=" + id_user +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", age=" + age +
+                "}\n";
+    }
+
+
+}
+>>>>>>> origin/may

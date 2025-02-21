@@ -10,12 +10,16 @@ public class MyDatabase {
     private final String USERNAME ="root";
     private final String PASSWORD = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/may
     private Connection  cnx ;
 
     private MyDatabase() {
         try {
             cnx = DriverManager.getConnection(URL,USERNAME,PASSWORD);
             System.out.println("connected ...");
+<<<<<<< HEAD
 =======
     private Connection cnx;
 
@@ -24,15 +28,21 @@ public class MyDatabase {
             cnx = DriverManager.getConnection(URL, USERNAME, PASSWORD);
             System.out.println("Connected ...");
 >>>>>>> origin/adem
+=======
+>>>>>>> origin/may
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> origin/adem
+=======
+
+>>>>>>> origin/may
     public static MyDatabase getInstance() {
         if (instance == null)
             instance = new MyDatabase();

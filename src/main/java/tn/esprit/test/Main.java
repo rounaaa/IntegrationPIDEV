@@ -1,6 +1,7 @@
 package tn.esprit.test;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import tn.esprit.models.Station;
 import tn.esprit.models.Utilisateur;
 import tn.esprit.models.tarifs;
@@ -11,10 +12,16 @@ import tn.esprit.models.Citoyen;
 import tn.esprit.services.ServiceUtilisateur;
 import tn.esprit.models.Utilisateur;
 >>>>>>> origin/adem
+=======
+import tn.esprit.models.Evenement;
+import java.time.LocalDateTime;
+import java.time.LocalDate;
+>>>>>>> origin/may
 
 public class Main {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         ServiceStation serviceStation = new ServiceStation();
 
@@ -94,5 +101,22 @@ public class Main {
 
         */
 >>>>>>> origin/adem
+=======
+
+        String nom = "Concert Rock";
+        String description = "Un concert de rock exceptionnel";
+        LocalDateTime date = LocalDate.now().atStartOfDay();
+        String lieu = "Stade de France";
+        String statut = "actif";
+        int capacite = 5000;
+        String image = "concert.jpg";
+        int idUser = 1;
+
+
+        Evenement evenement = new Evenement(nom, description, date, lieu, statut, capacite, image, idUser);
+
+
+        System.out.println(evenement);
+>>>>>>> origin/may
     }
 }
