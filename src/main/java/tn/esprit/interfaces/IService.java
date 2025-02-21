@@ -8,6 +8,7 @@ public interface IService<T> {
 
     List<T> getAll();
 
+<<<<<<< HEAD
 
     void update(T t);
 
@@ -15,3 +16,10 @@ public interface IService<T> {
     void deleteID(int id_borne);
 
 }
+=======
+    void update(T t);
+
+    void delete(T t);
+
+}
+>>>>>>> origin/adem
