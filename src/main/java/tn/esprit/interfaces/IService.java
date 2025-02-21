@@ -9,11 +9,17 @@ public interface IService<T> {
     List<T> getAll();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     void update(T t);
 
     void delete(T t);
     void deleteID(int id_borne);
+=======
+    void update(T t);
+
+    void delete(T t);
+>>>>>>> origin/jasser
 
 }
 =======

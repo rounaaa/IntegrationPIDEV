@@ -1,6 +1,9 @@
 package tn.esprit.models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/jasser
 public class Admin extends Utilisateur {
 
     public Admin() {
@@ -16,6 +19,7 @@ public class Admin extends Utilisateur {
         super(nom, prenom, email, cin, motDePasse);
         this.setRole("ADMIN");
     }
+<<<<<<< HEAD
 }
 =======
 public class Admin {
@@ -76,3 +80,6 @@ public class Admin {
     }
 }
 >>>>>>> origin/may
+=======
+}
+>>>>>>> origin/jasser

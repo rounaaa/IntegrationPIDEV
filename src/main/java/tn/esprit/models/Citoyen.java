@@ -15,4 +15,8 @@ public class Citoyen extends Utilisateur {
         super(nom, prenom, email, cin, motDePasse);
         this.setRole("CITOYEN");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/jasser

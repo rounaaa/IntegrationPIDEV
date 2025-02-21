@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="WorkshopJDBC3A15" />
+=======
+        <module name="bledismart" />
+>>>>>>> origin/jasser
       </profile>
     </annotationProcessing>
   </component>
